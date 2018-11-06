@@ -2,14 +2,16 @@ body {
     background:wheat;
 }
 #loginform {
-    width:500px;
-    height:500px;
-    position:absolute;
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
-    margin: auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 420px;
+    height: 300px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 
 }
 .login-input-box {
