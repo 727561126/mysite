@@ -35,6 +35,13 @@ body {
 .login-input-box input::after{
     border: 1px solid #ff7d0a;
 }
+.login-button{
+    margin-top: 12px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
 .login-button button{
     background-color: #ff7d0a;
     color: #ffffff;
