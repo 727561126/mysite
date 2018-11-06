@@ -3,9 +3,17 @@
 {% block content  %}
     <div id="loginform">
         <form  action="{% url 'polls:login' %}" method="post">
-            用户名： <input type="text" name="username">
-            密码：<input type="passwd" name="passwd">
-            <input type="submit" value="登陆">
+            <div class="login-input-box">
+                <span class="icon icon-user"></span>
+                用户名： <input type="text" name="username">
+            </div>
+            <div class="login-input-box">
+                <span class="icon icon-passwd"></span>
+                密码：<input type="passwd" name="passwd">
+            </div>
+            <div class="login-button">
+                <input type="submit" value="登陆">
+            </div>
         </form>
     </div>
 {% endblock %}
