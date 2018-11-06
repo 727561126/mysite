@@ -1,9 +1,11 @@
 {% extends "base.html" %}
 {% block title %} 登陆页面 {% endblock %}
 {% block content  %}
-    <form  action="{% url 'polls:login' %}" method="post">
-    用户名： <input type="text" name="username">
-    密码：<input type="passwd" name="passwd">
-    <input type="submit" value="登陆">
-    </form>
+    <div id="loginform">
+        <form  action="{% url 'polls:login' %}" method="post">
+            用户名： <input type="text" name="username">
+            密码：<input type="passwd" name="passwd">
+            <input type="submit" value="登陆">
+        </form>
+    </div>
 {% endblock %}
