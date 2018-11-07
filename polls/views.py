@@ -21,4 +21,4 @@ def login(request):
 
     return render(request,'polls/main.html',{'user':user})
 def user(request):
-    return request(request,'polls/main.html')
+    return render(request,'polls/main.html')
