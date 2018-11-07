@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5531afbd-27c1-4a5a-90e8-3f861e1fd954" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +44,7 @@
         <counts>
           <entry key="css" value="212" />
           <entry key="html" value="974" />
-          <entry key="py" value="443" />
+          <entry key="py" value="449" />
           <entry key="txt" value="103" />
         </counts>
       </usages-collector>
@@ -55,14 +53,14 @@
           <entry key="CSS" value="212" />
           <entry key="HTML" value="974" />
           <entry key="PLAIN_TEXT" value="103" />
-          <entry key="Python" value="443" />
+          <entry key="Python" value="449" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/polls/templates/polls/main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -118,14 +116,14 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
-                <marker date="1541568814360" expanded="true" signature="797:802" ph="..." />
+                <marker date="1541569820218" expanded="true" signature="797:802" ph="..." />
               </folding>
             </state>
           </provider>
@@ -214,18 +212,20 @@
             <path>
               <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="polls" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="polls" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -439,7 +439,21 @@
       <option name="project" value="LOCAL" />
       <updated>1541563135498</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="主页面增加">
+      <created>1541568819760</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1541568819760</updated>
+    </task>
+    <task id="LOCAL-00022" summary="主页面增加">
+      <created>1541569824980</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1541569824980</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -453,6 +467,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24886535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -569,13 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/templates/polls/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/polls/templates/polls/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -603,11 +611,18 @@
     <entry file="file://$PROJECT_DIR$/polls/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
-            <marker date="1541568814360" expanded="true" signature="797:802" ph="..." />
+            <marker date="1541569820218" expanded="true" signature="797:802" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
