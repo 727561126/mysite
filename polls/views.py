@@ -20,3 +20,5 @@ def login(request):
     user =get_object_or_404(User,username=username)
 
     return render(request,'polls/main.html',{'user':user})
+def user(request):
+    return request(request,'polls/main.html')
