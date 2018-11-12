@@ -21,5 +21,5 @@ def login(request):
 
     return render(request,'polls/main.html',{'user':user})
 def user(request):
-    user = get_object_or_404(User)
-    return render(request,'polls/user/user.html'{'user':user})
+    user = User.objects.orderby("username").all()
+    return render(request,'polls/user/user.html',{'user':user})
