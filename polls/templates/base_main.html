@@ -272,8 +272,14 @@ Danny Donovan
 </a>
 <ul class="dropdown-menu sub-down">
 <li>
-<a href="email.html">主机</a>
+<a href="{% url 'polls:alyhost' %}">阿里云主机</a>
 </li>
+    <li>
+        <a href="{% url 'polls:jfhost' %}">机房主机</a>
+    </li>
+    <li>
+        <a href="{% url 'polls:grhost' %}">个人电脑</a>
+    </li>
 </ul>
 </li>
 <li class="nav-item dropdown">
