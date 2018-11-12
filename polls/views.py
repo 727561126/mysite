@@ -21,5 +21,5 @@ def login(request):
 
     return render(request,'polls/main.html',{'user':user})
 def user(request):
-    user = User.objects.orderby("username").all()
+    user = User.objects.all()
     return render(request,'polls/user/user.html',{'user':user})
